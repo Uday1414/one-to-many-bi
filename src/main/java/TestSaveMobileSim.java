@@ -39,8 +39,8 @@ public static void main(String[] args) {
 	
 	entityTransaction.begin();
 	entityManager.persist(mobile);
-	entityManager.persist(sim1);
-	entityManager.persist(sim2);
+//	entityManager.persist(sim1);
+//	entityManager.persist(sim2);
 	entityTransaction.commit();
 }
 }
